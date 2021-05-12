@@ -1,8 +1,9 @@
 import React from 'react';
+import Navbar from './components/layout/Navbar';
 import BreakingNews from './components/layout/BreakingNews';
 import CategoryButtons from './components/layout/CategoryButtons';
-import Navbar from './components/layout/Navbar';
 import MainPage from './components/MainPage';
+import Footer from './components/layout/Footer'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <BreakingNews />
       <CategoryButtons/>
       <MainPage />
+      <Footer />
     </>
   );
 };

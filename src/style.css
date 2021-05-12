@@ -7,14 +7,28 @@
   font-size: 50px;
 }
 
-.footer {
+#label-container {
+  padding: 0 100px 20px;
+}
+
+#card-container {
+  padding: 0 100px 20px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
   margin-top: 1rem;
   padding: 1rem;
   background-color: rgb(19, 18, 17);
-  width: 100%;
+  width: 100vw;
   text-align: center;
 }
 
-#label-container {
-  padding: 0 100px 20px;
+.footer-content {
+  color: white;
+}
+
+.italic {
+  font-style: italic;
 }

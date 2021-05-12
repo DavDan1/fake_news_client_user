@@ -5,19 +5,7 @@ const Navbar = () => {
   const panes = [
     {
       menuItem: 'Home',
-    },
-    {
-      menuItem: 'About',
-    },
-    {
-      menuItem: 'Search',
-    },
-    {
-      menuItem: 'Log In',
-    },
-    {
-      menuItem: 'Language',
-    },
+    }
   ];
   return (
     <>

@@ -5,20 +5,20 @@ import ArticleCard from './ArticleCard';
 
 const Articles = () => {
   const [articles, setArticles] = useState([]);
-  const [errorMessage, serErrorMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
 
   const fetchArticles = async () => {
     try {
       const response = await axios.get('/articles/');
       setArticles(response.data.articles);
-      serErrorMessage('');
+      setErrorMessage('');
     } catch (error) {
       if (error.response.status === 500) {
-        serErrorMessage(
+        setErrorMessage(
           'Servers are currently not responding, Pleas try again later'
         );
       } else {
-        serErrorMessage(error.message);
+        setErrorMessage(error.message);
       }
     }
   };
