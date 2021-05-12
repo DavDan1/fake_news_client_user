@@ -6,12 +6,14 @@ import MainPage from './components/MainPage';
 import Footer from './components/layout/Footer'
 import './style.css';
 
+document.body.style = 'background: #111518'
+
 const App = () => {
   return (
     <>
       <Navbar />
-      <BreakingNews />
-      <CategoryButtons/>
+      {/* <BreakingNews /> */}
+      {/* <CategoryButtons/> */}
       <MainPage />
       <Footer />
     </>

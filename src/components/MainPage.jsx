@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Grid, Header } from 'semantic-ui-react';
+import { Card, Header } from 'semantic-ui-react';
 import axios from 'axios';
 import ArticleCard from './ArticleCard';
+import BreakingNews from './layout/BreakingNews';
+import CategoryButtons from './layout/CategoryButtons';
 
 const Articles = () => {
   const [articles, setArticles] = useState([]);
@@ -26,7 +28,9 @@ const Articles = () => {
     fetchArticles();
   }, []);
 
-  let articleList = articles.map((article, i) => {
+  let firstArticle = articles[0]
+
+  let articleList = articles.slice(1).map((article, i) => {
     return <ArticleCard article={article} i={i} />;
   });
 
@@ -37,7 +41,9 @@ const Articles = () => {
           {errorMessage}
         </Header>
       )}
-      <Grid data-cy='articles-container'>{articleList}</Grid>
+      <BreakingNews firstArticle={firstArticle} />
+      <CategoryButtons />
+      <Card.Group data-cy='articles-container'>{articleList}</Card.Group>
     </>
   );
 };
