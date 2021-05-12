@@ -14,3 +14,7 @@
   width: 100%;
   text-align: center;
 }
+
+#label-container {
+  padding: 0 100px 20px;
+}

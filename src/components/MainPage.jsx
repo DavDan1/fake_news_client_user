@@ -12,11 +12,8 @@ const Articles = () => {
       const response = await axios.get('/articles/');
       setArticles(response.data.articles);
       serErrorMessage('');
-      
     } catch (error) {
-      debugger
       if (error.response.status === 500) {
-        
         serErrorMessage(
           'Servers are currently not responding, Pleas try again later'
         );
@@ -40,7 +37,7 @@ const Articles = () => {
           {errorMessage}
         </Header>
       )}
-      <Grid data-cy='article-container'>{articleList}</Grid>
+      <Grid data-cy='articles-container'>{articleList}</Grid>
     </>
   );
 };
