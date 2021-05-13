@@ -3,7 +3,7 @@ import { Label, Grid } from 'semantic-ui-react';
 
 const CategoryButtons = () => {
   return (
-    <div id='label-container'>
+    <div id='category-container'>
       <Grid centered columns='equal'>
         <Grid.Row data-cy='category-container'>
           <Grid.Column>

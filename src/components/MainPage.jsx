@@ -41,9 +41,9 @@ const Articles = () => {
           {errorMessage}
         </Header>
       )}
-      <BreakingNews firstArticle={firstArticle} />
+      <BreakingNews  firstArticle={firstArticle} />
       <CategoryButtons />
-      <Card.Group data-cy='articles-container'>{articleList}</Card.Group>
+      <div id='card-container' data-cy='articles-container'>{articleList}</div>
     </>
   );
 };

@@ -12,15 +12,18 @@ body{
 }
 
 #question {
-  color: rgb(245, 189, 23);
+  color: rgb(255, 200, 35);
   font-size: 50px;
 }
 
-#label-container {
-  padding: 0 100px 20px;
+#category-container {
+  margin: 50px 300px 50px;
 }
 
 #card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   padding: 0 100px 20px;
 }
 
@@ -42,7 +45,19 @@ body{
   font-style: italic;
 }
 
+.breaking-news{
+  margin: 20px 80px;
+  display: flex;
+  height: 30rem;
+  background-color: #202325;
+  border-radius: 20px;
+}
+
 .breaking-img{
-  width: 200px;
-  height: 300px;
+  object-fit: cover;
+}
+
+.breaking-content{
+  color: aliceblue;
+  padding: 40px;
 }
