@@ -9,12 +9,12 @@ We have built a fullstack platform that spans 4 different applications:
 
 ### Authors
 [Seva Deriushkin](https://github.com/SevaDer14)  
-[Luke Perrin](https://github.com/lukeperrin10)  
-[Lucas Knudsen](https://github.com/LucasKnudsen)
-[Kim Haaga](https://github.com/1CIM)  
-[Arun Singh](https://github.com/arunbhalli)  
-[Christer Forsgren](https://github.com/christerforsgren91)
-[Davit Danielyan](https://github.com/DavDan1)
+[Luke Perrin](https://github.com/lukeperrin10)    
+[Lucas Knudsen](https://github.com/LucasKnudsen)  
+[Kim Haaga](https://github.com/1CIM)    
+[Arun Singh](https://github.com/arunbhalli)    
+[Christer Forsgren](https://github.com/christerforsgren91)  
+[Davit Danielyan](https://github.com/DavDan1)  
 
 ## Overview:
 ### Front End Admin Client
@@ -70,9 +70,9 @@ $ ionic serve
 ```
 
 ### Login credentials
-- **Subscriber:** email: subscriber@gmail.com, password: password
-- **Journalist:** email: mrfake@fakenews.com, password: password
-- **Editor:** email: editor@gmail.com, password: password
+- **Subscriber:** </br> email: subscriber@gmail.com, </br> password: password
+- **Journalist:** </br> email: mrfake@fakenews.com, </br> password: password
+- **Editor:** </br> email: editor@gmail.com,</br> password: password
 
 ## Updates/Improvements   
 - 
